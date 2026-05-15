@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:boder-box;
+}
+body {
+    background-color: #ccc;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.applybox {
+    max-width: 600px;
+    padding: 20px;
+    background-color: aliceblue;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 1px 1px 1px rgb(1, 1, 1,0.1);
+    border-radius: 10px;
+}
+.title_small {
+    font-size: 20px;
+}
+.cotainer {
+    display:grid ;
+    grid-template-columns:repeat(auto-fit, minmax(200px, ifr));
+    gap: 20px;
+    display: flex;
+}
